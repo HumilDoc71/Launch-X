@@ -1,0 +1,143 @@
+<!-- Taqueria el jefe / Practica Ejem 2 Clase -->
+
+<Doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tacos El Jefe </title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Tacos El Jefe</h1>
+        </header>
+
+        <section>
+            <img src="Tacos_el_jefe.jpg" alt="Tacos El Jefe" width="500" height="400">
+        </section>
+
+        <hr>
+
+        <section>
+            <h2> Menu </h2>
+            <h3> Tacos Grandes </h3>
+            <p> Con nopales y cebolla </p>
+            <ul>
+                <li> Carne Asada    ................... $30 mxn </li>
+                <li> Pollo          ................... $30 mxn </li>
+                <li> Pastor         ................... $30 mxn </li>
+                <li> Chorizo        ................... $30 mxn </li>
+                <li> Cabeza         ................... $30 mxn </li>
+            </ul>
+
+            <h3> Tacos Pequeños </h3>
+            <p> Con cilantro y cebolla </p>
+            <ul>
+                <li> Carne Asada    ................... $20 mxn </li>
+                <li> Pollo          ................... $20 mxn </li>
+                <li> Pastor         ................... $20 mxn </li>
+                <li> Chorizo        ................... $20 mxn </li>
+                <li> Cabeza         ................... $20 mxn </li>
+            </ul>
+
+            <h3> Tacos Especiales </h3>
+            <p> Haz tu combo especial por 10$ mas </p>
+            <dl>
+                <dt> Tacos de carne asada     ...................... $40 mxn </dt>
+                <dd> Tacos de carne asada con cebolla, cilantro y limón. </dd>
+                <dt> Tacos de pastor    ...................... $40 mxn </dt>
+                <dd> Tacos de carne de cerdo marinada en especias y jugo de naranja. </dd>
+                <dt> Tacos de chorizo   ...................... $40 mxn </dt>
+                <dd> Tacos de chorizo de cerdo con cebolla, cilantro y limón. </dd>
+                <dt> Tacos de pollo     ...................... $40 mxn </dt>
+                <dd> Tacos de pollo con cebolla, cilantro y limón. </dd>
+                <dt> Tacos de cabeza    ...................... $40 mxn </dt>
+                <dd> Tacos de cabeza de res con cebolla, cilantro y limón. </dd>
+            </dl>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2> Ubicacion </h2>
+
+            <h3> Sucursales </h3>
+            <table>
+                <tr>
+                    <th> Nombre </th>
+                    <th> Direccion </th>
+                    <th> Telefono </th>
+                </tr>
+                <tr>
+                    <td> Norte </td>
+                    <td> <a href="https://goo.gl/maps/4Z9Z9Z9Z9Z9Z9Z9Z9" target="_blank"> Av. 5 de Mayo 1234 </a> </td>
+                    <td> 1234567890 </td>
+                </tr>
+                <tr>
+                    <td> Centro </td>
+                    <td> <a href="https://goo.gl/maps/4Z9Z9Z9Z9Z9Z9Z9Z9" target="_blank"> Av. 5 de Mayo 1234 </a> </td>
+                    <td> 1234567890 </td>
+                </tr>
+                <tr>
+                    <td> Sur </td>
+                    <td> <a href="https://goo.gl/maps/4Z9Z9Z9Z9Z9Z9Z9Z9" target="_blank"> Av. 5 de Mayo 1234 </a> </td>
+                    <td> 1234567890 </td>
+                </tr>
+            </table>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2> Pedidos </h2>
+            <h3> Haz tu pedido aqui: </h3>
+
+            <form action="">
+                <p> De que taqueria quieres?: </p>
+                <select name="taqueria" id="taqueria">
+                    <option value="norte"> Norte </option>
+                    <option value="centro"> Centro </option>
+                    <option value="sur"> Sur </option>
+                </select>
+            </form>
+
+            <p> De que quieres? </p>
+            <input type="checkbox" name="carne asada" id="carne asada" value="carne asada">
+            <label for="carne asada"> Carne Asada </label>
+            <input type="number" name="AsadaNumber" id="AsadaNumber" placeholder="Cuantos?">
+            <br>
+            <input type="checkbox" name="pollo" id="pollo" value="pollo">
+            <label for="pollo"> Pollo </label>
+            <input type="number" name="PolloNumber" id="PolloNumber" placeholder="Cuantos?">
+            <br>
+            <input type="checkbox" name="pastor" id="pastor" value="pastor">
+            <label for="pastor"> Pastor </label>
+            <input type="number" name="PastorNumber" id="PastorNumber" placeholder="Cuantos?">
+            <br>
+            <input type="checkbox" name="chorizo" id="chorizo" value="chorizo">
+            <label for="chorizo"> Chorizo </label>
+            <input type="number" name="ChorizoNumber" id="ChorizoNumber" placeholder="Cuantos?">
+            <br>
+            <input type="checkbox" name="cabeza" id="cabeza" value="cabeza">
+            <label for="cabeza"> Cabeza </label>
+            <input type="number" name="CabezaNumber" id="CabezaNumber" placeholder="Cuantos?">
+            <br>
+
+            <br><br>
+            <label for="Nombre"> Nombre: </label>
+            <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+            <br>
+            <label for="Direccion"> Direccion: </label>
+            <input type="text" name="Direccion" id="Direccion" placeholder="Direccion">
+            <br>
+            <label for="Telefono"> Telefono: </label>
+            <input type="text" name="Telefono" id="Telefono" placeholder="Telefono">
+            <br>
+            <button type="submit"> Enviar pedido </button>
+            <br>
+        </section>
+
+    </body>
+</html>
