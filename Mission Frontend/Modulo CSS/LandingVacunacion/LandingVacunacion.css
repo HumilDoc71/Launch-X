@@ -1,0 +1,378 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*-------------------------------------------------     HEADER     ----------------------------------------------------------*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.head_izq{
+    display: flex;
+    align-items: center;
+    padding-left: 165px;
+    color: blue;
+    font-size: 27px;
+    font-weight: bold;
+    height: 105px;
+    width: 50%;
+}
+
+.head_der{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color: gray;
+    font-weight: bold;
+    height: 105px;
+    width: 50%;
+    background-color: rgb(234, 247, 255);
+
+}
+
+.hoax{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 150px;
+    background-color: mediumblue;
+    color: white;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.4);
+    border-radius: 5px;
+}
+
+/*-------------------------------------------------     SECCIÓN 1     ----------------------------------------------------------*/
+
+.seccion1{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+.s1_izq{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+    padding: 100px 0px 0px 165px;
+    gap: 35px;
+    width: 50%;
+    max-width: 50%;
+}
+
+.s1_izq > p{
+    color: dimgray;
+    font-size: 20px;
+}
+
+.s1_der{
+    width: 50%;
+    max-width: 50%;
+}
+
+.estrella{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+}
+
+.estrella p{
+    color: midnightblue;
+    font-weight: bold;
+}
+
+/*-------------------------------------------------     SECCIÓN 2     ----------------------------------------------------------*/
+
+.seccion2 h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: midnightblue;
+    margin-left: 165px;
+}
+
+.seccion2 > p{
+    color: dimgray;
+    font-size: 18px;
+    margin-left: 165px;
+}
+
+.flex2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.flex2 div{
+    height: 300px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 25px 0px 0px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.flex2 p{
+    color: dimgray;
+}
+
+h3{
+    color: midnightblue;
+}
+
+/*-------------------------------------------------     SECCIÓN 3     ----------------------------------------------------------*/
+
+.seccion3{
+    display: flex;
+    gap: 80px;
+}
+
+.flex3{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    align-items: baseline;
+}
+
+.flex3 h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+.flex3 > p{
+    color: dimgray;
+    font-size: 18px;
+}
+
+.consejos{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.recuadro{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    width: 400px;
+    height: 60px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.recuadro p{
+    color: midnightblue;
+    font-weight: bold;
+}
+
+.recuadro div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.recuadro2{
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding-top: 12px;
+}
+
+.recuadro2 > p{
+    color: dimgray;
+    font-size: 14px;
+    padding: 25px 25px 25px 65px;
+}
+
+.recuadro2a{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 15px;
+}
+
+.recuadro2a div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: midnightblue;
+    font-weight: bold;
+}
+
+/*-------------------------------------------------     SECCIÓN 4     ----------------------------------------------------------*/
+
+.seccion4{
+    display: flex;
+    justify-content: space-between;
+}
+
+.s4_izq{
+    display: flex;
+    justify-content: baseline;
+    flex-direction: column;
+    padding-left: 165px;
+}
+
+.s4_izq h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: midnightblue;
+}
+
+.s4_izq > p{
+    color: dimgray;
+    font-size: 18px;
+}
+
+.flex4{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px 30px;
+    padding-top: 130px;
+}
+
+.caja{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.caja_arriba{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 175px;
+    gap: 15px;
+    color: dimgray;
+}
+
+.caja_arriba h3{
+    color: midnightblue;
+    font-size: 18px;
+}
+
+.caja_arriba div{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-size: 13px;
+}
+
+.caja_boton{
+    height: 55px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 0px 0px 5px rgba(0,0,0,0.1); */
+    border-radius: 5px;
+    color: mediumblue;
+    font-weight: bold;
+    background-color: aliceblue;
+}
+
+.caja2{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.caja2_boton{
+    height: 50px;
+    width: 175px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    background-color: mediumblue;
+}
+
+/*-------------------------------------------------     FOOTER     ----------------------------------------------------------*/
+
+footer{
+    background-color: aliceblue;
+}
+
+.footer_arriba{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px 165px 90px 165px;
+}
+
+.footer_izq{
+    color: dimgray;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer_izq h3{
+    color: mediumblue;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.footer_der{
+    display: flex;
+    gap: 100px;
+    color: dimgray;
+}
+
+.footer_der h3{
+    color: midnightblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer_abajo{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 165px;
+    margin-right: 165px;
+    color: dimgray;
+}
+
+.terminos{
+    display: flex;
+    gap: 40px;
+}
